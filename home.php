@@ -17,13 +17,10 @@
                             </div>
                             <div class="col-md-12">
                                 <label for="inputPassword4" class="form-label">Description</label>
-                                <input type="text" name ="description" class="form-control" id="inputPassword4">
+                                <textarea rows="7" name ="description" class="form-control" id="description"></textarea>
                             </div>
                             <div class="col-12">
-                                <label for="inputAddress" class="form-label">Status</label>
-                                <input type="text" name="status" class="form-control" id="inputAddress" >
-                            </div>
-                            <div class="col-12">
+                            See the Goal <a href="goal.php">Goal</a><br>
                                 <input type="submit" name="submit" class="btn btn-primary" value="Save">
                             </div>
                         </form>

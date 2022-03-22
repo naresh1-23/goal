@@ -25,6 +25,7 @@
                         </div>
                         
                         <div class="col-12">
+                        Create an account <a href="signup.php">Signup</a>
                             <input type="submit" name="submit" class="btn btn-primary" value="Sign Up">
                         </div>
                     </form>

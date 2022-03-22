@@ -6,9 +6,8 @@ if(isset($_POST['title'])
 && isset($_POST['description'])){
       $title = $_POST['title'];
       $description = $_POST['description'];
-      $status = $_POST['status'];
       $date = date('Y-m-d');
-      $query = "INSERT INTO GoalTable(GoalTitle,description, GoalAccomplishDate, statusInfo, user_id) VALUES('$title', '$description', '$date','$status', '$user_id')";
+      $query = "INSERT INTO GoalTable(GoalTitle,description, GoalAccomplishDate, user_id) VALUES('$title', '$description', '$date', '$user_id')";
       if(mysqli_query($conn, $query)){
             $msg = "Data inserted";
             header('Location:../home.php?msg='.$msg);
