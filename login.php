@@ -21,7 +21,7 @@
                             </div>
                             
                             <div class="col-12">
-                            Do not have account? <a href="login.php">Login</a><br>
+                            Do not have account? <a href="signup.php">Sign up</a><br>
                                 <button type="submit" name="loginsubmit" class="btn btn-primary">Log in</button>
                             </div>
                         </form>

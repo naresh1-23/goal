@@ -5,6 +5,7 @@
   </head>
 <body>
     <?php include('include/navbar.php') ?><br>
+    <div class="logout"><a href="db/logout.php">logout</a></div>
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="col-6">
@@ -20,7 +21,7 @@
                                 <textarea rows="7" name ="description" class="form-control" id="description"></textarea>
                             </div>
                             <div class="col-12">
-                            See the Goal <a href="goal.php">Goal</a><br>
+                            See the Goal <a href="goal.php">Goaltable</a><br>
                                 <input type="submit" name="submit" class="btn btn-primary" value="Save">
                             </div>
                         </form>
